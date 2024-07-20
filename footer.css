@@ -1,0 +1,36 @@
+/* Custom Footer CSS */
+
+.footer {
+    background-color: #002a4e;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer {
+    color: #ffeb3b;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.footer {
+    margin-bottom: 0;
+}
+
+.footer {
+    font-size: 20px;
+}
+
+.footer {
+    margin: 5px 0;
+}

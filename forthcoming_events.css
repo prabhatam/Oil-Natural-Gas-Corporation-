@@ -1,0 +1,136 @@
+/* Custom CSS */
+
+
+.page-title {
+    color: #343a40;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.highlights-text {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+.table-filter {
+    background-color: #eceaea;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.table-filter .form-group {
+    margin-bottom: 15px;
+}
+
+.table-filter .custom-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 3px ;
+}
+
+.table-filter .custom-btn.bg-purpal {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.table-filter .custom-btn.bg-gray {
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+/* Table Styles */
+.tableCss {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tableCss th,
+.tableCss td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+}
+
+.tableCss th {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.tableCss tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.tableCss tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+.tableCss th {
+    border-bottom: 2px solid #dee2e6;
+    font-weight: bold;
+    background-color: #00ffbf;
+    color: rgb(10, 1, 1);
+    text-align: center;
+}
+
+.tableCss th,
+.tableCss td {
+    padding: 15px;
+    text-align: left;
+}
+
+.tableCss tbody td {
+    text-align: center;
+}
+
+.tableCss thead th.sorting,
+.tableCss thead th.sorting_asc,
+.tableCss thead th.sorting_desc {
+    background-color: #007bff;
+}
+
+.tableCss tbody tr:hover {
+    background-color: #eeeeee;
+}
+
+.tableCss tbody td {
+    padding: 15px;
+}
+
+.no-data {
+    text-align: center;
+    padding: 20px;
+    color: #757575;
+}
+
+/* Pagination Styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #dee2e6;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.pagination a.active {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #e9ecef;
+}
